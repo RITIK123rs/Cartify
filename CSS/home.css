@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: outfit;
-  src: url(/Font/Outfit-Regular.ttf);
+  src: url(../Font/Outfit-Regular.ttf);
 }
 @font-face {
   font-family: poppins;
-  src: url(/Font/Poppins-Regular.ttf);
+  src: url(../Font/Poppins-Regular.ttf);
 }
 #container1 #right::-webkit-scrollbar,
 #container1 #left::-webkit-scrollbar,
