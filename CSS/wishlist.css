@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: outfit;
-  src: url(/Font/Outfit-Regular.ttf);
+  src: url(../Font/Outfit-Regular.ttf);
 }
 #container1 .card-title {
   font-weight: bold;
