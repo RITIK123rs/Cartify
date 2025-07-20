@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+@font-face {
+  font-family: outfit;
+  src: url(/Font/Outfit-Regular.ttf);
+}
+@font-face {
+  font-family: prata;
+  src: url(/Font/Prata-Regular.ttf);
+}
+
+#container1{
+    /* border: 2px solid black; */
+    height: 670px;
+    /* font-family: outfit !important; */
+}
+
+#container1 .nav{
+    width: 802px;
+    margin-left: 259px;
+    margin-top: 5%;
+    font-size: 20px;
+}
+#container1 .nav button{
+    border-bottom: none !important;
+    color: black;
+}
+#container1 .nav .cover{
+    border-bottom: 2px solid #dee2e6;
+    width: 622px;
+}
+#container1 h1{
+    font-size: 50px;
+    font-family: prata;
+}
+
+
+#container1 #nav-login,
+#container1 #nav-signin{
+    border: 2px solid #dee2e6;
+    border-top: none;
+    width: 800px;
+    height: 450px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20%;
+    z-index: 5;
+}
+#container1 .tab-pane.active {
+    display: flex !important;
+}
+
+#container1 #nav-signin{
+    height: 500px !important;
+}
+#container1 input{
+    width: 70%;
+    font-size: 17px;
+    padding: 7px 7px 7px 20px ;
+}
+#container1 #nav-login a{
+    margin-left: 390px;
+    color: black;
+    text-decoration: none;
+}
+#container1 #nav-signin .form-check{
+    margin-left: -230px;
+    margin-bottom: 30px;
+}
+#container1 #nav-signin .form-check-input{
+    height: 18px;
+    width: 8px;
+}
+#container1 #nav-login button,
+#container1 #nav-signin button{
+    width: 120px;
+    height: 40px;
+    background-color: black !important;
+    color: white !important;
+}
+
+#container1 #nav-login button:hover,
+#container1 #nav-signin button:hover{
+    border: 2px solid black !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+@media screen and (max-width: 600px){
+
+    #container1{
+    height: 670px;
+}
+
+#container1 .nav{
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+#container1 .nav .cover{
+    width:0px;
+}
+#container1 h1{
+    font-size: 35px;
+}
+
+
+#container1 #nav-login,
+#container1 #nav-signin{
+    width: 400px;
+    height: 550px;
+    margin-left: 30px;
+}
+
+#container1 input{
+    width: 80%;
+    font-size: 18px;
+    padding: 7px 7px 7px 20px ;
+}
+#container1 #nav-login a{
+    margin-left: 160px;
+    margin-bottom: 40px;
+}
+#container1 #nav-signin .form-check{
+    margin-left: -50px !important;
+    margin-bottom: 30px;
+}
+#container1 #nav-signin .form-check-input{
+    height: 18px;
+    width: 8px !important;
+}
+#container1 #nav-login button,
+#container1 #nav-signin button{
+    width: 120px;
+    height: 40px;
+    background-color: black !important;
+    color: white !important;
+}
+#container1 #nav-signin .form-check-label{
+    font-size: 13px !important;
+}
+}
